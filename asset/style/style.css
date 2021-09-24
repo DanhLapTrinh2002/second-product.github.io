@@ -1,0 +1,550 @@
+/*rết css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row
+{
+    margin: 0 -8px;
+}
+.col
+{
+    float: left;
+    padding: 0 8px;
+}
+.col-there
+{
+    width: 33.33333%;
+}
+.col-hafl
+{
+    width: 50%;
+}
+.col-full
+{
+    width: 100%;
+}
+.font-18px
+{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.font-15px
+{
+    font-size: 15px;
+}
+.magin-8px
+{
+    margin-bottom: 8px;
+}
+
+.magin-16px
+{
+    margin-top: 16px;
+}
+.with-100
+{
+    width: 100%;
+}
+.row::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-align
+{
+    text-align: center !important;
+}
+html
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+
+}
+.clear
+{
+    clear: both;
+}
+.color
+{
+    color: white !important;
+}
+
+.header{
+height: 46px;
+background-color: black;
+position: fixed ;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1;
+}
+.nav{
+display: inline-block;
+}
+
+.nav>li
+{
+    display: inline-block;
+    position: relative;
+}
+.nav>li>a
+{
+    color: white;
+    text-transform: uppercase;
+}
+.nav li a
+{
+    line-height: 46px;   
+    font-size: 15px;
+    text-decoration: none ;
+    padding: 0 24px;
+    display: block;
+}
+.nav .menudown li a 
+{
+   
+    width: 100%;
+    display: block;
+    padding: 0 19px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+    
+}
+.nav .menudown
+{
+    display: none;
+    box-shadow: 0 0 15px rgb(78, 78, 78);
+   list-style-type: none;
+    background-color: white;
+    position: absolute;
+}
+.nav .menudown li a 
+{
+    color: black;
+}
+
+.nav>li:hover>a
+{
+    background-color: gainsboro;
+    color: black;
+}
+.nav .menudown li:hover a 
+{
+    background-color: gainsboro;
+    color: black;
+}
+.nav li:hover .menudown
+{
+    display: block;
+}
+/*search + down + menus*/
+.nav .btn-down
+{
+    font-size: 13px;
+}
+.btn-search
+{
+
+    float: right;
+    line-height: 46px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.btn-search .icon-search
+{
+font-size: 14px;
+color: white;
+}
+.header .btn-search:hover
+{
+    background-color: tomato;
+}
+.btn-menu
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 46px;
+    padding: 0 20px;
+    cursor: pointer;
+    display: none;
+}
+.btn-menu .icon-menu
+{
+    color: white;
+}
+.header .icon-menu:hover
+{
+    color: black;
+}
+.header  .btn-menu:hover
+{
+    background-color: gainsboro;
+}
+.slider
+{
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('../style/img/chicago.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conten0{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*text-align: center;*/
+    }
+    .conten1
+    {
+        font-weight: 500;
+        font-size: 24px;
+    }
+.conten2
+{
+    padding-top: 26px;
+    padding-bottom: 48px;
+    font-size: 15px;
+}
+/*The Ban*/
+.container{
+
+}
+.contain
+{
+    width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 100%;
+  padding: 64px;
+   
+}
+.contain .contain-header
+{
+    /*text-align: center;*/
+    margin-top: 15px;
+font-size: 32px;
+font-weight: 400;
+letter-spacing: 4px;
+}
+.contain .contain-content
+{
+   /* text-align: center;*/
+padding-top: 26px;
+font-style: italic;
+color: rgb(187, 184, 184);
+margin-bottom: 48px;
+}
+.contain .about
+{
+    text-align: justify;
+    padding-top: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+/*Member*/
+.Member
+{
+    padding-top: 48px;
+    padding-bottom: 16px;
+}
+.Member-item
+{
+    /*text-align: center;*/
+    /*width: 33.333%;*/
+    /*float: left;*/
+}
+.Member-item .single
+{
+width: 150px;
+border-radius: 6px;
+margin-bottom: 16px;
+
+}
+.Member-item .name
+{
+margin-top: 14px;
+margin-bottom: 14px;
+}
+/*tickets*/
+.selection-tickets
+{
+    background-color: black;
+}
+.heading-ticket
+{
+    list-style-type: none;
+    margin-top: 30px;
+    font-size: 15px;
+    background-color: white;
+}
+.heading-ticket li
+{
+    padding: 8px 16px;
+    border-bottom: 1px solid gainsboro;
+}
+.ticket-item
+{
+    margin-left: 10px;
+    padding: 4px 8px;
+    color: white;
+    background-color: rgb(255, 38, 0);
+}
+.ticket-icon
+{
+    width: 24px;
+    float: right;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    line-height: 24px;
+    margin-top: -3px;
+    /*text-align: center;*/
+}
+/*location*/
+.place-sum
+{
+    padding: 32px 0 32px;
+    font-size: 15px;
+    /*margin: 0 -8px;*/
+   
+}
+/*lien he*/
+.font-18px a
+{
+    
+    color: rgb(47, 47, 253);
+}
+.font-18px a:hover
+{
+    color: rgb(168, 81, 250);
+}
+/*
+.place-sum .place-item
+{
+    width: 33.33333%;
+      float: left;
+    padding: 0 8px;
+  
+}
+*/
+.place-sum .place-body
+{
+    background-color: white;
+    padding: 16px 16px 0 16px;
+}
+.place-sum .place-heading
+{
+    font-weight: 550;
+}
+
+.place-sum .place-date
+{
+    margin: 15px 0;
+    color: #ccc;
+}
+.place-about
+{
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+.place-buy
+{
+    display:inline-block;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.place-buy:hover
+{
+    background-color: #ccc;
+    color: black;
+}
+.img-heading
+{
+    display: block;
+    width: 100%;
+}
+.img-heading:hover
+{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.footer{
+
+}
+/*javacrip*/
+.model
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0,0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.model.open
+{
+    display: flex;
+}
+.model-container
+{
+    max-width: calc(100% - 32px);
+    width: 800px;
+    background-color: white;
+    position: relative;
+    animation: moldel-designer ease .5s;
+}
+.model-header
+{
+    
+    font-size: 30px;
+    background-color: #009688 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+}
+.ti-bag
+{
+    margin-right: 15px;
+}
+.moadel-about
+{
+    display: block;
+    margin-bottom: 10px;
+}
+.model-input
+{
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+.model-button
+{
+    width: 100%;
+    background-color:#009688 ;
+    padding: 18px;
+    border: none;
+}
+.model-button:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.body
+{
+    padding: 18px;
+}
+.model-footer
+{
+    margin-bottom: 15px;    
+    text-align: right;
+    margin-right: 15px;
+}
+.color-help
+{
+    color: #2196F3;
+}
+.cance
+{
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    padding: 16px;
+}
+.cance:hover
+{
+    background-color: red;
+    cursor: pointer;
+}
+/*hiệu ứng trôi của buytickets*/
+@keyframes moldel-designer 
+{
+    from{
+        transform: translateY(-140px);
+    }
+
+    to
+    {
+        transform: translateY(0px);
+    }
+}
+/*form dang ki*/
+.font-18px i
+{
+    width: 30px;
+    display: inline-block;
+}
+.font-15px .input-100
+{
+    font-size: 16px;
+    padding: 8px 8px 15px 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.button-submit
+{
+    padding: 9px 18px;
+    background-color: black;
+    color: white;
+    float: right;
+    border: none;
+    margin-bottom: 32px;
+    
+}
+.button-submit:hover
+{
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+/*footer*/
+.trademark
+{
+    padding: 80px 16px;
+}
+.backgroud img
+{
+    width: 100%;
+    display: block;
+}
+.trademark i
+{
+    font-size: 23px;
+}
+.trademark i:hover
+{
+    opacity: 0.7;
+    color: rgb(58, 57, 57);
+}
+.endgame a 
+{
+    color: black;
+}
+.footer
+{
+    background-color: rgb(241, 241, 241);
+}
+/*reposion*/
+

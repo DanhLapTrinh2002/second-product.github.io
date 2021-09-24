@@ -1,0 +1,121 @@
+/*pc*/
+@media (min-width : 64em)
+{
+
+}
+/*mobie and tablet*/
+@media (max-width : 63.9375em)
+{
+    .btn-search .icon-search
+    {
+        font-size: 16px;
+    }
+
+    .place-buy
+    {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+    .button-submit
+    {
+        font-size: 17px;
+        padding: 16px 30px ;
+    }
+    .button-submit
+    {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .font-15px .input-100
+    {
+        padding: 15px 10px 15px 10px ;
+    }
+    .font-18px
+    {
+        line-height: 2;
+        font-size: 18px;
+    }
+}
+/*tablet*/
+@media (min-width :  46.25em) and (max-width : 63.9375em)
+{
+    .trademark i
+    {
+        font-size: 30px;
+        margin: 15px 15px;      
+    }
+    .endgame p,
+    .endgame a
+    {
+        display: inline-block;
+        font-size: 30px;
+        margin-top: 15px;
+    }
+}
+/*mobie*/
+@media (max-width : 46.1875em){
+    .header
+    {
+        overflow: hidden;
+    }
+    .contain
+    {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+       padding: 64px 16px;
+    }
+    .contain .about
+    {
+        font-size: 15px;
+    }
+    .nav
+    {
+        display: block;
+    }
+    .nav>li:first-child
+    {
+        display:inline-block ;
+    }
+    .nav>li
+    {
+        display: block;
+    }
+    .btn-menu
+    {
+        display: block;
+    }
+    .btn-search
+    {
+        display: none;
+    }
+    .Member-item
+    {
+        width: 100%;
+    }
+    .s-width-full,
+    .s-col-full{
+        width: 100%;
+    }
+    .Member-item .single
+    {
+        width: 60%;
+    }
+    .font-18px
+    {
+        margin-bottom: 16px;
+    }
+    .s-mg8
+    {
+        margin-bottom: 8px;
+    }
+    .s-magin16
+    {
+        margin-bottom: 16px;
+    }
+    .font-15px .input-100
+    {
+        margin-top: 10px;
+    }
+    }
